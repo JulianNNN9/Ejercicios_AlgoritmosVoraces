@@ -19,4 +19,5 @@ public class Objeto {
     public void reducirCantidad(int cantidadUsada) {
         this.cantidad -= cantidadUsada;
     }
+
 }

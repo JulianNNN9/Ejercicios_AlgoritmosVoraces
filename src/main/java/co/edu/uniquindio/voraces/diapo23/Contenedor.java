@@ -55,7 +55,7 @@ public class Contenedor {
                 objetos.sort(Comparator.comparingDouble(Objeto::getValor).reversed());
                 break;
             case 2:
-                objetos.sort(Comparator.comparingDouble(Objeto::getPeso));
+                objetos.sort(Comparator.comparing(Objeto::getPeso));
                 break;
             case 3:
                 objetos.sort(Comparator.comparingDouble(Objeto::getValorPorUnidadPeso).reversed());
